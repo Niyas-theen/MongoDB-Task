@@ -39,14 +39,3 @@ This project contains the database design and MongoDB queries for managing the *
   ],
   "mentor_id": ObjectId()
 }
-
-company_drives Collection
-{
-  "_id": ObjectId(),
-  "company_name": "ABC Corp",
-  "date": ISODate("2020-10-20"),
-  "students_appeared": [
-    ObjectId(),
-    ObjectId()
-  ]
-}
